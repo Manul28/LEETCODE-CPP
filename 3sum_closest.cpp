@@ -1,6 +1,11 @@
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
+         // this is for code optimisation
+         ios_base::sync_with_stdio(false);
+         cin.tie(NULL);
+         cout.tie(NULL);
+        
          if(nums.size()<3){
              return 0;
          }
