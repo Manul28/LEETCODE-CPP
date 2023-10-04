@@ -5,7 +5,9 @@ public:
     // cout.tie(NULL);
     int data[1000001];
     MyHashMap() {
-        fill(data,data+1000000,-1);// this will fill of array data from index-0 to 1000000 with value -1.
+        // fill(data,data+1000000,-1);
+        // this will fill of array data from index-0 to 1000000 with value -1.
+        memset(data,-1,sizeof(data));
     }
     
     void put(int key, int value) {
